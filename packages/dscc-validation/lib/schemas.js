@@ -270,7 +270,7 @@ exports.configSchema = {
                     type: "string",
                     enum: ["CHECKBOX"]
                 },
-                defaultValue: { type: "string" }
+                defaultValue: { type: "boolean" }
             }
         },
         textInput: {
@@ -368,7 +368,7 @@ exports.configSchema = {
                     type: "string",
                     enum: ["INTERVAL"]
                 },
-                defaultValue: { type: "string" }
+                defaultValue: { type: "number" }
             }
         },
         fontColor: {
