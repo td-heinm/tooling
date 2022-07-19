@@ -31,7 +31,7 @@
     "fix": "yarn lint --fix && yarn prettier"
   },
   "dependencies": {
-    "@google/dscc": "https://gitpkg.now.sh/td-heinm/tooling/packages/ds-component?main",
+    "@google/dscc": "^0.3.22",
     "@google/dscc-validation": "https://gitpkg.now.sh/td-heinm/tooling/packages/dscc-validation?main",
     "argparse": "^1.0.10",
     "bluebird": "^3.5.3",
